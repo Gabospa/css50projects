@@ -53,6 +53,7 @@ body {
     background: transparent;
     font-size: 26px;
     color: #fff;
+    border: 0;
 }
 
 .circle button:focus {
@@ -69,7 +70,7 @@ body {
     transform-origin: top left;
 }
 
-.container.show-nav + nav_li   {
+.container.show-nav + nav li   {
     transform: translateX(0);
     transition-delay: 0.3s;
 
